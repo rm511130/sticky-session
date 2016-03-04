@@ -1,0 +1,6 @@
+---
+applications:
+- name: rfm-sticky-session
+  memory: 256M
+  instances: 4
+  path: target/StickySessionApp-1.0.war
