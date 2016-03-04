@@ -3,7 +3,7 @@ sticky-session
 
 Simple Java web app that prints Cloud Foundry environment variables and cookies and is useful to showcase sticky sessions.
 
-When JSESSIONID and VCAP__ID cookies are set, session affinity is on.
+When JSESSIONID and VCAP_ID cookies are set, session affinity is on.
 
 When a Redis service instance with a name containing the words "session-replication" is bound to the sticky-session application, session replication is enabled.
 
